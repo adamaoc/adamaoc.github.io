@@ -1,2 +1,0 @@
-adamaoc.github.io
-=================
