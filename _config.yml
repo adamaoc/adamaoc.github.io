@@ -15,3 +15,9 @@ markdown: kramdown
 
 # Section text
 work_text: "I work for a Dallas based company called Dialexa where we build custom web applications..."
+txg_text: "...I write automotive reviews and news at txGarage.com..."
+instagram_text: "...I share photos of cars, family, and tech on my Instagram..."
+twitter_text: "...I talk about all kinds of nonsense on Twitter..."
+codepen_text: "...I make front-end stuff on Codepen.io..."
+codepen_blog_text: "...and also blog on Codepen Blog..."
+amp_text: "...I work on some independent projects via ampnetmedia.com..."

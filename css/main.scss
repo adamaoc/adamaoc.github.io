@@ -25,6 +25,12 @@ $brand-highlight:  #febe12; // yellow
 $brand-alert:      #db3a1b; // red
 $brand-dark:       #373737; // dark gray
 
+$dialexa-dark:     #353E44;
+$dialexa-gold:     #D6B064;
+
+$txg-red:          #842427;
+$txg-blue:         #7DB6ED;
+
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
@@ -55,5 +61,8 @@ $on-laptop:        800px;
         "layout",
         "grid",
         "syntax-highlighting",
-        "components/home-hero"
+        "components/btns",
+        "components/home-hero",
+        "components/home-work",
+        "components/home-txg"
 ;
