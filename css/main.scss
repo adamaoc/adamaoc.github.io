@@ -13,7 +13,7 @@ $base-line-height: 1.5;
 
 $spacing-unit:     50px;
 
-$nav-bar-size:     300px;
+$nav-bar-size:     200px;
 
 $text-color:       #333;
 $background-color: #fdfdfd;
@@ -53,5 +53,7 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "grid",
+        "syntax-highlighting",
+        "components/home-hero"
 ;

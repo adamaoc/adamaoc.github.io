@@ -3,7 +3,7 @@ title: adamaoc
 
 description: > # this means to ignore newlines until "baseurl:"
   I'm a front-end developer working on awesome web applications using Ember and a whole host of cool technologies.
-  I write automotive reviews at txGarage.com and love all things automotive and tech. 
+  I write automotive reviews at txGarage.com and love all things automotive and tech.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: adamaoc
@@ -11,3 +11,7 @@ github_username:  adamaoc
 
 # Build settings
 markdown: kramdown
+
+
+# Section text
+work_text: "I work for a Dallas based company called Dialexa where we build custom web applications..."
