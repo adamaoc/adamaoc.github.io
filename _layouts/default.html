@@ -6,18 +6,16 @@
   <body>
 
     <div class="page-content">
+      <nav class="pri-nav">
+        {% include header.html %}
+      </nav>
       
       <main class="main-wrapper">
         {{ content }}
       </main>
-    
-      <aside class="header-side">
-        {% include header.html %}    
-      </aside>
-    
-      {% include footer.html %}
-
     </div>
+
+    {% include footer.html %}
   </body>
 
 </html>

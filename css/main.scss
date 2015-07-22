@@ -11,11 +11,19 @@ $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     50px;
 
-$text-color:       #111;
+$nav-bar-size:     300px;
+
+$text-color:       #333;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+
+// http://brandcolors.net/ + mailchimp
+$brand-color:      #449a88; // green
+$brand-sec:        #2c9ab7; // blue
+$brand-highlight:  #febe12; // yellow
+$brand-alert:      #db3a1b; // red
+$brand-dark:       #373737; // dark gray
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -27,13 +35,13 @@ $on-laptop:        800px;
 
 
 // Using media queries with like this:
-// @include media-query($palm) {
+// @include bp($palm) {
 //     .wrapper {
 //         padding-right: $spacing-unit / 2;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
-@mixin media-query($device) {
+@mixin bp($device) {
     @media screen and (max-width: $device) {
         @content;
     }
